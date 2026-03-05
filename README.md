@@ -20,4 +20,5 @@ Reminder that the solver was only tested on binary systems, these scripts were w
 ## Sources
 1. **init_cond.cpp:** generates initial conditions for binaries, a c++ implementation of the python code of Professor Michela Mapelli
 2. **nbody.cpp:** solves the collisional (no softening, O(n^2)) Newtonian n-body problem currently with a simple leapfrog algorithm. The positions of the bodies are then saved in a txt file. The solver is not limited to binaries but can't handle the collisional UV divergence for now - no regularization.
+
 Future plan: writing the generalized Mikkola algorithmic regularization.
